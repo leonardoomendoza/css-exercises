@@ -67,3 +67,47 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.modal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.top {
+  display: flex;
+  border: blue solid;
+  align-items: center;
+  font-weight: bold;
+  padding: 16px;
+  padding-bottom: 0px;
+  gap: 8px;
+}
+.close-button {
+  border: mediumslateblue solid;
+}
+.header-button {
+  display: flex; 
+  gap: 120px;
+}
+
+
+.text {
+  display: flex; 
+  border: red solid;
+  padding: 32px; 
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 64px;
+  align-items: center;
+ 
+}
+.buttons {
+  display: flex;
+  padding: 48px;
+  border: rgb(255, 0, 251) solid;
+  padding-top: 0px;
+  padding-left: 64px;
+  gap: 6px;
+}
